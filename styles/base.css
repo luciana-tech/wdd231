@@ -167,12 +167,23 @@ footer {
     transform: scale(1.15);
 }
 
+/*Desktop*/
+@media (max-width: 769px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    main>h1,
+    main>section.certificate {
+        grid-column: 1 / -1;
+    }
+}
+
 /*Responsive*/
 @media (max-width: 768px) {
-
-    .home-grid {
-        grid-template-columns: 1fr;
-    }
 
     nav ul {
         flex-direction: column;
@@ -182,7 +193,7 @@ footer {
         flex-direction: column;
     }
 
-    .course-list {
+    .course-container {
         grid-template-columns: 1fr;
     }
 }
