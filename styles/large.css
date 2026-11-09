@@ -1,0 +1,13 @@
+/* styles/larger.css - Estilos para telas grandes (Desktop) */
+@media (min-width: 769px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    main>h1,
+    main>section.certificate {
+        grid-column: 1 / -1;
+    }
+}
