@@ -1,18 +1,26 @@
+@font-face {
+  font-family: "Roboto Fallback";
+  src: local("Arial");
+  size-adjust: 100.6%;
+  ascent-override: 92%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
 /* Mobile-first styles (320px and up) */
 :root {
   --primary: #0266b0;
   --secondary: #b8860b;
-  /* Fixed for contrast/accessibility (darker gold for links) */
   --accent: #f1c715;
   --bg: #ddd;
   --text: #333;
   --surface: #ffffff;
-  --muted: #5a6b78;
+  --muted: #495763;
   --gold: #b8860b;
   --silver: #6c7a89;
   --member: #0266b0;
-  --font-head: "Roboto", Arial, sans-serif;
-  --font-body: "Roboto", Arial, sans-serif;
+  --font-head: "Roboto", "Roboto Fallback", Arial, sans-serif;
+  --font-body: "Roboto", "Roboto Fallback", Arial, sans-serif;
 }
 
 body {
@@ -37,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: #014375;
 }
 
 :focus-visible {
@@ -206,6 +214,10 @@ main {
   min-width: 0;
 }
 
+.card-body a:hover {
+  color: #014375;
+}
+
 .card-body h2 {
   font-size: 1.2rem;
 }
@@ -292,6 +304,11 @@ footer a {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.social a {
+  display: inline-block;
+  padding: 0.35rem 0.25rem;
 }
 
 .dev-info p {

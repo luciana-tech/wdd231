@@ -19,15 +19,23 @@
   <meta property="og:image" content="https://luciana-tech.github.io/wdd231/chamber/images/chamber-share.svg">
   <meta property="og:url" content="https://luciana-tech.github.io/wdd231/chamber/directory.html">
 
+  <!-- Performance: Preload member JSON data for faster LCP -->
+  <link rel="preload" href="data/members.json" as="fetch" crossorigin>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  </noscript>
 
-  <!-- CSS: normalize first, then small, then larger -->
+  <!-- CSS: normalize first, then small, then large -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
-  <link rel="stylesheet" href="css/larger.css">
+  <link rel="stylesheet" href="css/larger.css" media="screen and (min-width: 700px)">
 
   <script src="scripts/shared.js" defer></script>
   <script src="scripts/directory.js" defer></script>
@@ -55,7 +63,7 @@
 
   <main>
     <div class="page-intro">
-      <h1>Members Directory</h1>
+      <h1>Business Directory</h1>
       <p>Local businesses that make Itajaí work. Switch between cards and a simple list.</p>
     </div>
 
@@ -76,16 +84,18 @@
         Itajaí Chamber of Commerce<br>
         Rua 7 de Setembro, 52 - Centro<br>
         Itajaí, SC, Brazil<br>
-        <a href="tel:+55473349-5049">(47) 3349-5049</a><br>
+        <a href="tel:+55473349-5049" aria-label="Call Itajaí Chamber of Commerce at (47) 3349-5049">(47)
+          3349-5049</a><br>
         <a href="mailto:info@itajaicc.org">info@itajaicc.org</a>
       </address>
     </div>
     <div>
       <h2>Follow us</h2>
       <div class="social">
-        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">Facebook</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page">LinkedIn</a>
       </div>
     </div>
     <div class="dev-info">
