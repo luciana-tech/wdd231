@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Porto Azul Logística",
+    "address": "Av. Beira Rio, 1200, Itajaí, SC",
+    "phone": "(47) 3341-1200",
+    "website": "https://www.example.com/portoazul",
+    "image": "porto-azul.svg",
+    "level": 3,
+    "tagline": "Cargo handling and port logistics since 1998.",
+    "founded": 1998
+  },
+  {
+    "name": "Café do Cais",
+    "address": "Rua Hercílio Luz, 85, Centro, Itajaí, SC",
+    "phone": "(47) 3344-0085",
+    "website": "https://www.example.com/cafedocais",
+    "image": "cafe-do-cais.svg",
+    "level": 1,
+    "tagline": "Specialty coffee and fresh bakery by the river.",
+    "founded": 2015
+  },
+  {
+    "name": "Maré Alta Pescados",
+    "address": "Rua Blumenau, 410, Fazenda, Itajaí, SC",
+    "phone": "(47) 3348-0410",
+    "website": "https://www.example.com/marealta",
+    "image": "mare-alta.svg",
+    "level": 2,
+    "tagline": "Fresh local seafood delivered to restaurants.",
+    "founded": 2004
+  },
+  {
+    "name": "Navegar Seguros",
+    "address": "Rua Lauro Müller, 300, Centro, Itajaí, SC",
+    "phone": "(47) 3347-0300",
+    "website": "https://www.example.com/navegar",
+    "image": "navegar-seguros.svg",
+    "level": 2,
+    "tagline": "Business, marine and cargo insurance.",
+    "founded": 2007
+  },
+  {
+    "name": "Estaleiro Vento Sul",
+    "address": "Rod. Antônio Heil, 5000, Itajaí, SC",
+    "phone": "(47) 3349-5000",
+    "website": "https://www.example.com/ventosul",
+    "image": "vento-sul.svg",
+    "level": 3,
+    "tagline": "Boat building and marine maintenance.",
+    "founded": 1989
+  },
+  {
+    "name": "Studio Ponte Digital",
+    "address": "Rua Brusque, 720, Centro, Itajaí, SC",
+    "phone": "(47) 3346-0720",
+    "website": "https://www.example.com/pontedigital",
+    "image": "ponte-digital.svg",
+    "level": 1,
+    "tagline": "Websites and marketing for local businesses.",
+    "founded": 2019
+  },
+  {
+    "name": "Hotel Marejada",
+    "address": "Av. Sete de Setembro, 150, Itajaí, SC",
+    "phone": "(47) 3345-0150",
+    "website": "https://www.example.com/marejada",
+    "image": "marejada.svg",
+    "level": 2,
+    "tagline": "Business hotel close to the port and events center.",
+    "founded": 2001
+  },
+  {
+    "name": "Contábil Atlântico",
+    "address": "Rua Pedro Ferreira, 230, Centro, Itajaí, SC",
+    "phone": "(47) 3343-0230",
+    "website": "https://www.example.com/atlantico",
+    "image": "contabil-atlantico.svg",
+    "level": 1,
+    "tagline": "Accounting and tax services for small companies.",
+    "founded": 2011
+  },
+  {
+    "name": "Zion Tradução e Legendagem",
+    "address": "Rua Jorge Mattos, 386, Centro, Itajaí, SC",
+    "phone": "(47) 3344-6690",
+    "website": "https://www.example.com/zion",
+    "image": "zion-traducao.svg",
+    "level": 1,
+    "tagline": "Translation and subtitling for your business.",
+    "founded": 2014
+  }
+]

@@ -1,0 +1,73 @@
+/* Wider views (linked with media="screen and (min-width:700px)") */
+header {
+    padding: .75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+#menu-btn {
+    display: none
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border: 0;
+    gap: .25rem
+}
+
+nav a {
+    border: 0;
+    padding: .6rem .9rem;
+    border-radius: 4px
+}
+
+nav a[aria-current="page"] {
+    box-shadow: none;
+    padding-left: .9rem;
+    background: rgba(241, 199, 21, .18)
+}
+
+main {
+    padding: 2rem
+}
+
+.page-intro h1 {
+    font-size: 2.25rem
+}
+
+.view-toggle {
+    max-width: 360px
+}
+
+#members {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.25rem
+}
+
+#members.list {
+    grid-template-columns: 1fr;
+    gap: .6rem
+}
+
+#members.list .member-card img {
+    width: 120px
+}
+
+#members.list .card-body {
+    grid-template-columns: 2fr 1.2fr 1.4fr 1.6fr auto;
+    align-items: center;
+    gap: 1rem
+}
+
+#members.list .card-body h2 {
+    font-size: 1.1rem
+}
+
+footer {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem
+}
