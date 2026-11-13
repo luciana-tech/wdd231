@@ -41,7 +41,6 @@ h3 {
 
 a {
   color: var(--primary);
-  /* Ensures strong contrast against light backgrounds */
 }
 
 a:hover {

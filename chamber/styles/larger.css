@@ -28,7 +28,6 @@
     nav a[aria-current="page"] {
         box-shadow: none;
         padding-left: .9rem;
-        background: rgba(241, 199, 21, .18);
         color: #fff;
     }
 
