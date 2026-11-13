@@ -5,6 +5,7 @@
   ascent-override: 92%;
   descent-override: 24%;
   line-gap-override: 0%;
+  font-display: swap;
 }
 
 /* Mobile-first styles (320px and up) */
