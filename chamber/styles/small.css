@@ -107,8 +107,6 @@ header {
 nav ul {
   display: none;
   flex-direction: column;
-  margin-top: .75rem;
-  border-top: 1px solid rgba(255, 255, 255, .25);
   margin: 0;
   border: 0;
   gap: .25rem;
