@@ -178,7 +178,7 @@ main {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .member-card {
@@ -232,13 +232,13 @@ main {
 }
 
 .badge.silver {
-  background: var(--silver);
-  color: #1a1a1a
+  background: #94a3b8;
+  color: #0f172a;
 }
 
 .badge.gold {
-  background: var(--gold);
-  color: #1a1a1a;
+  background: #eab308;
+  color: #0f172a;
 }
 
 .tagline {
@@ -299,6 +299,16 @@ footer h2 {
 
 footer a {
   color: #fff;
+}
+
+footer address {
+  line-height: 2;
+}
+
+footer address a {
+  display: inline-block;
+  padding: 0.4rem 0;
+  margin: 0.2rem 0;
 }
 
 .social {
