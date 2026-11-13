@@ -49,7 +49,7 @@ a:hover {
 }
 
 :focus-visible {
-  outline: 3px solid var(--accent);
+  outline: 3px solid #014375;
   outline-offset: 2px;
 }
 
@@ -100,7 +100,7 @@ header {
 #menu-btn[aria-expanded="true"] {
   background: var(--accent);
   border-color: var(--accent);
-  color: var(--primary);
+  color: var(--text);
 }
 
 /* Navigation (collapsed on small screens) */
@@ -130,7 +130,7 @@ nav a:hover {
 
 nav a[aria-current="page"] {
   font-weight: 700;
-  color: var(--accent);
+  color: #fff;
   box-shadow: inset 4px 0 0 var(--accent);
   padding-left: .75rem;
 }
@@ -232,10 +232,12 @@ main {
 
 .badge.silver {
   background: var(--silver);
+  color: #1a1a1a
 }
 
 .badge.gold {
   background: var(--gold);
+  color: #1a1a1a;
 }
 
 .tagline {
@@ -289,7 +291,7 @@ footer {
 }
 
 footer h2 {
-  color: var(--accent);
+  color: #fff;
   font-size: 1.1rem;
   margin-bottom: .4rem;
 }
